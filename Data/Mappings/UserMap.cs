@@ -27,9 +27,10 @@ namespace Blog2.Data.Mappings
                 .HasMaxLength(80);
 
             builder.Property(x => x.Email);
-            builder.Property(x => x.PasswordHash);
-            builder.Property(x => x.Image);
             builder.Property(x => x.Bio);
+            builder.Property(x => x.Image);
+            builder.Property(x => x.PasswordHash);
+            builder.Property(x => x.Github);
 
             builder.Property(x => x.Slug)
                 .IsRequired()

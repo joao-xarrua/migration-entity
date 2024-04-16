@@ -14,7 +14,7 @@ namespace Blog2.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer("server=localhost,1433;database=Blog;User Id=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True");
+            options.UseSqlServer("server=localhost,1433;database=Blog2;User Id=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
